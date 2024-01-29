@@ -1,4 +1,4 @@
-@charset UTF-8
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
@@ -65,7 +65,7 @@ section.normal {
 }
 
 section p {
-    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 section.imagem{
@@ -74,11 +74,16 @@ section.imagem{
     padding: 5px;
     background-attachment: fixed;
     padding-bottom: 30px;
+    background-size: cover;
+    box-shadow: inset 1 1 1 1;
+    text-shadow: 1px 1px 0 black;
 }
 
 section.imagem > p {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.522);
+    background-color: rgba(0, 0, 0, 0.516);
+    text-shadow: 1px 1px 0px black;
+    padding-top: 30px;
 }
 
 section#img1{
